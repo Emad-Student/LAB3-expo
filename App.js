@@ -12,7 +12,7 @@ import {
   Platform,
 } from 'react-native';
 
-const API_URL = 'https://api.jsonplaceholder.dev/posts';
+const API_URL = 'https://jsonplaceholder.typicode.com/posts';
 
 export default function App() {
   const [posts, setPosts] = useState([]);
